@@ -1,0 +1,78 @@
+.visibility {
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    padding-top: 50px
+}
+
+/* .ham{
+    visibility: visible;
+} */
+.btn {
+    margin: 2px;
+    padding: 6px 7px;
+    border-radius: 22px;
+    background-color: dodgerblue;
+    font-weight: bolder;
+    font-size: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.infocontainer {
+    /* background-color: rgb(255, 0, 200); */
+    width: 93vw;
+    height: 85vh;
+    margin: 12px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* .devpic img {
+    width: 20vw;
+    height: 40vh;
+    border-radius: 180px;
+} */
+
+.devinfo {
+    margin-left: 16px;
+}
+
+.devinfo .hello {
+    font-size: 25px;
+
+}
+
+.devinfo .name {
+    font-size: 20px;
+}
+
+.devinfo .about {
+    font-size: 16px;
+}
+
+.devinfo .moreabout {
+    font-size: 16px;
+    padding-top: 12px;
+}
+
+
+.hamburger{
+    visibility: visible;
+}
+.picupdate{
+    width: 20vw;
+    height: 15vh;
+    border-radius: 180px;
+    position: absolute;
+    top: 38px;
+    left: 131px;
+}
+body{
+    overflow: hidden;
+}
